@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    min-height: 100vh;
+}
+
+.main-section{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute; 
+}
+
+.form-box{
+    width: 300px;
+    position: relative;
+    margin: 3% auto;
+    background: rgb(247, 244, 244);
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px rgb(54, 54, 54);
+    height: 420px;
+}
+
+.login-container{
+    margin-bottom:50px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    width: 280px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 2px rgb(51, 51, 51);
+    border-radius: 30px;
+}
+
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    font-family: sans-serif;
+    color: rgb(241, 248, 244);
+    font-size: 15px;
+    text-shadow:  1px 1px 2px black, 0 0 25px rgb(45, 45, 46), 0 0 5px rgb(42, 42, 43);
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: rgb(55, 56, 55);
+    text-shadow: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.check-box{
+    margin: 45px 10px 30px 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.check-box > input{
+    margin-right: 5px;
+}
+
+.check-box span{
+    color:rgb(79, 80, 79);
+    text-shadow: none;
+}
+
+#btn{
+    top:0;
+    position: absolute; 
+    width: 140px;
+    height: 100%;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.btn-register{
+    left:140px;
+}   
+
+.btn-login{
+    left:0;
+}
+
+.submit-btn{
+    width: 160px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#register{
+    left:450px;
+}
+
+.submit-btn, #btn{
+    font-family: sans-serif;
+    background: linear-gradient(to right,rgb(26, 25, 25), rgb(133, 131, 131),rgb(79, 80, 79));
+    text-shadow:  1px 1px 2px black, 0 0 25px rgb(45, 45, 46), 0 0 5px rgb(42, 42, 43);
+    color: rgb(241, 248, 244);
+    font-size: 15px;
+}
+
+.msg-link, .msg-error{
+    color:rgb(79, 80, 79);
+}
+
+.msg-link{
+    margin-top: 20px;
+}
+
+.msg-error{
+    margin-top: 20px;
+}
